@@ -1,0 +1,7 @@
+ModbusSlave
+===========
+
+Modbus over serial line - RTU Slave Arduino Sketch Library
+
+Work derived from Juan Pablo Zometa and others. Original source code can be found at
+https://sites.google.com/site/jpmzometa/arduino-mbrt/arduino-modbus-slave
