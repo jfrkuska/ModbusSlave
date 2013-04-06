@@ -247,7 +247,7 @@ int ModbusSlave::send_reply(unsigned char *query, unsigned char string_length)
         string_length += 2;
 
         for (i = 0; i < string_length; i++) {
-                Serial.print(byte(query[i]));
+                Serial.write(query[i]);
         }
 
         if (txenpin > 1) {// set MAX485 to listen mode 
